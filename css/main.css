@@ -34,17 +34,12 @@ small {
 
 .background {
     position: fixed;
-    top: -300px;
-    left: calc(-100vh + 50vw);
-    height: 200%;
+    top: 0;
+    left: 0;
+    width: 100%;
     z-index: -100;
 }
 
-@media only screen and (min-width: 1600px) {
-    .background {
-        top: -532px
-    }
-}
 
 .container {
     font-family: Poppins, sans-serif;
@@ -133,8 +128,6 @@ nav > a {
 }
 
 .scroll-to-top {
-    text-align: right;
-    width: 100%;
     cursor: pointer;
 }
 
